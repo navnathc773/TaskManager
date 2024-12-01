@@ -1,0 +1,183 @@
+.second h1{
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.second input{
+    padding:10px;
+    position: relative;
+    left:40%;
+    width: 300px;
+    top:50px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.second button{
+    position: relative;
+    padding:10px;
+    width: 80px;
+    border-radius: 10px;
+    left: 35%;
+    top:50px;
+    letter-spacing: 2px;
+    background-color:violet;
+    color:white;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+span{
+    font-size: 30px;
+    position: relative;
+    left:43%;
+    top:40px;
+}
+
+ul{
+    font-size: 30px;
+    list-style-type: none;
+}
+
+li{
+    padding:10px;
+    letter-spacing: 2px;
+}
+
+.data{
+    padding: 10px;
+    position: relative;
+    top:30px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    left:47%;
+    cursor: pointer;
+}
+
+#mongo{
+    padding:10px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color:white;
+    position: relative;
+    left:47%;
+    top:50px;
+    cursor: pointer;
+}
+
+#krishna{
+    position: relative;
+    left:45%;
+}
+
+.completed .paka{
+    letter-spacing:3px;
+    position:relative;
+    left:43%;
+    top:60px;
+    color:#FF6F61;
+}
+
+.statue{
+    padding:10px;
+    border-radius: 5px;
+    position:absolute;
+    left:300px;
+}
+
+.balaji{
+    position:relative;
+    padding:10px;
+    border-radius: 5px;
+    left:700px;
+    top:35px;
+
+}
+@media screen and (max-width:400px){
+    .second h1{
+        letter-spacing: 2px;
+        position: relative;
+        left:33%;
+    }
+    
+    .second input{
+        padding:10px;
+        position: relative;
+        left:44%;
+        width: 300px;
+        top:20px;
+        border-radius: 10px;
+        font-family: sans-serif;
+    }
+    
+    .second button{
+        position: relative;
+        padding:10px;
+        width: 80px;
+        border-radius: 10px;
+        left:400px;
+        top:-20px;
+        letter-spacing: 2px;
+        background-color:violet;
+        color:white;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+    
+    span{
+        font-size: 30px;
+        position: relative;
+        left:40%;
+        top:40px;
+    }
+    
+    ul{
+        font-size: 30px;
+        list-style-type: none;
+    }
+    
+    li{
+        padding:10px;
+        letter-spacing: 2px;
+    }
+    
+    .data{
+        padding: 10px;
+        position: relative;
+        top:30px;
+        border-radius: 5px;
+        background-color: brown;
+        color: white;
+        left:70%;
+        cursor: pointer;
+    }
+    
+    #mongo{
+        padding:10px;
+        background-color: blueviolet;
+        border-radius: 5px;
+        color:white;
+        position: relative;
+        left:70%;
+        top:50px;
+        cursor: pointer;
+    }
+    
+    .completed h1{
+        left:60%;
+    }
+
+    .completed .paka{
+        letter-spacing:3px;
+        position:relative;
+        left:50%;
+        top:60px;
+        color:#FF6F61;
+    }
+
+    #krishna{
+        position: relative;
+        left:65%;
+    }
+}
